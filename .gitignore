@@ -1,0 +1,153 @@
+# === General ===
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.pid
+*.seed
+*.cover
+*.egg-info/
+*.egg
+
+# === Environment ===
+.env
+.env.*
+.envrc
+.venv/
+venv/
+__pycache__/
+
+# === Node.js (frontend Next.js) ===
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.cache/
+/frontend/.turbo/
+/frontend/package-lock.json
+/frontend/yarn.lock
+/frontend/pnpm-lock.yaml
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.production.local
+
+# === Python (backend FastAPI) ===
+/backend/.mypy_cache/
+/backend/.pytest_cache/
+/backend/.venv/
+/backend/venv/
+/backend/__pycache__/
+/backend/.coverage
+/backend/instance/
+/backend/.pdm.toml
+/backend/.pdm.lock
+/backend/poetry.lock
+/backend/poetry.toml
+
+# === Database / Migrations ===
+/backend/migrations/versions/*.pyc
+/backend/migrations/versions/*.pyo
+/backend/migrations/__pycache__/
+/backend/alembic.ini
+/backend/alembic/versions/*.pyc
+/backend/alembic/versions/*.pyo
+/backend/alembic/versions/__pycache__/
+/backend/sqlite.db
+/backend/.db_data/
+db_data/
+pg_data/
+
+# === Docker ===
+/**/Dockerfile
+/docker-compose.override.yml
+**/docker-compose.override.yml
+**/docker-compose.prod.yml
+**/docker-compose.dev.yml
+
+# === IDE/Editor ===
+.idea/
+.vscode/
+*.code-workspace
+
+# === OS generated ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs and Debug ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+
+# === Build and Output ===
+/frontend/.next/
+/frontend/out/
+/frontend/dist/
+/frontend/build/
+/frontend/.turbo/
+/backend/build/
+/backend/dist/
+/backend/staticfiles/
+/backend/mediafiles/
+
+# === Coverage and Reports ===
+/coverage/
+/coverage-final.json
+/.nyc_output/
+/.nyc_output/
+/backend/htmlcov/
+/backend/.pytest_cache/
+/backend/.tox/
+/backend/tox/
+
+# === Compiled bytecode ===
+**/__pycache__/
+**/*.py[cod]
+
+# === Test Artifacts ===
+/frontend/coverage/
+/frontend/.nyc_output/
+/backend/.pytest_cache/
+/backend/.tox/
+/backend/htmlcov/
+/backend/pytest_cache/
+
+# === Local Configs & Secrets ===
+/frontend/.env*
+/backend/.env*
+secrets.env
+.envrc
+
+# === Fly.io & Vercel ===
+/.fly
+/vercel
+
+# === Sentry/Analytics (optional) ===
+.sentryclirc
+
+# === Misc ===
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*.swp
+*.swo
+*.swn
+*.swo
+
+# === Specific Artifacts for Next.js & FastAPI ===
+/frontend/public/sw.js
+/frontend/public/workbox-*.js
+/frontend/static/
+
+# === Optional Prettier/ESLint ===
+/frontend/.eslintcache
+/frontend/.stylelintcache
