@@ -1,6 +1,6 @@
-# SkillShare Connect
+# SkillConnect
 
- **SkillShare Connect** is a peer-to-peer learning exchange platform where users can teach and learn from each other in real time! Whether you want to share your skills or pick up something new, SkillShare Connect makes it seamless to connect, schedule, and learn together.
+ **SkillConnect** is a peer-to-peer learning exchange platform where users can teach and learn from each other in real time! Whether you want to share your skills or pick up something new, SkillConnect makes it seamless to connect, schedule, and learn together.
 
 ---
 
